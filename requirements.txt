@@ -4,3 +4,4 @@ PyPDF2==3.0.1
 langchain==0.0.154
 python-docx==0.8.11
 pandas==2.0.1
+faiss-cpu==1.7.4
