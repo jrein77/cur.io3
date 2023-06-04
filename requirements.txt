@@ -5,3 +5,4 @@ langchain==0.0.154
 python-docx==0.8.11
 pandas==2.0.1
 faiss-cpu==1.7.4
+openai==0.27.7
