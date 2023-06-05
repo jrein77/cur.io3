@@ -10,6 +10,9 @@ from langchain.callbacks import get_openai_callback
 from docx import Document
 import pandas as pd
 
+
+openai_api_key = st.secrets["general"]["OPENAI_API_KEY"]
+
 def extract_text_from_pdf(pdf):
     text = ""
     pdf_reader = PdfReader(pdf)
